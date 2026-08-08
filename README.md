@@ -23,16 +23,19 @@ the challenge — it spoils the answer.
 | Name | Level | Technique | Platform | Writeup |
 |---|---|---|---|---|
 | cm1_strcmp | 1 | Hardcoded strcmp | Linux x86_64 (ELF) | [Writeup](https://ginomaihuiri.github.io/crackmes/cm1-strcmp) |
-
+| cm2_numeric | 1 | Numeric serial + live patching via ptrace | Linux x86_64 (ELF) | [Writeup](https://ginomaihuiri.github.io/crackmes/cm2-numeric) |
+| cm3_xor | 1 | XOR encrypted immediates in instruction stream | Linux x86_64 (ELF) | [Writeup](https://ginomaihuiri.github.io/crackmes/cm3-xor) |
 ---
 
 ## How to run
 
 ```bash
-cd cm1_strcmp
+cd <challenge_folder>
 chmod +x crackme
 ./crackme
 ```
+
+Each challenge folder contains the binary and a `solutions/` subfolder with the source.
 
 ## Suggested tools
 
